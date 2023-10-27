@@ -53,5 +53,5 @@ else:
     for row in result_data:
         result_ws.append(row)
 
-    result_wb.save("emotionlhb.xlsx")
+    result_wb.save("emotion.xlsx")
     print("情感分析结果已保存到 emotion.xlsx")
