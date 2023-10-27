@@ -4,9 +4,9 @@ import time
 from openpyxl import Workbook
 
 # 创建你的 AppID
-APP_ID = '41857222'
-API_KEY = 'Y7Ry5AyVSSU6LZVIyz8Z1Par'
-SECRET_KEY = 'nptEz49nFB403S5bEsxqG9eYzl0OwkGs'
+APP_ID = 'example'
+API_KEY = 'example'
+SECRET_KEY = 'example'
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
 # 加载 Excel 文件
