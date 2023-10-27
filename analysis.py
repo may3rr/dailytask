@@ -10,7 +10,7 @@ SECRET_KEY = 'nptEz49nFB403S5bEsxqG9eYzl0OwkGs'
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
 # 加载 Excel 文件
-wb = load_workbook("lhb.xlsx")
+wb = load_workbook("comment.xlsx")
 ws = wb.active
 
 # 获取所有评论
