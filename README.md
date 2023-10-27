@@ -37,7 +37,7 @@ from openpyxl import Workbook
 
 ### 设置百度API
 
-你需要创建你的百度云账户，并在百度云控制台创建一个自然语言处理的应用，获取`APP_ID`、`API_KEY`和`SECRET_KEY`。
+你需要创建你的百度智能云账户，并在百度只能云控制台创建一个自然语言处理的应用，参考老师在群里发的'pdf'文件，获取`APP_ID`、`API_KEY`和`SECRET_KEY`。
 
 ```python
 APP_ID = 'your_app_id'
